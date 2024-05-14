@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #page_wrapper {
@@ -10,7 +11,6 @@
   display:flex;
   justify-content: space-between;
   align-items:end;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: beige;
 }
 
@@ -28,6 +28,19 @@
 #header_picture {
   background-image: url("https://avatars.githubusercontent.com/u/73337148?v=4");
   background-size: contain;
+  background-repeat: no-repeat;
   width: 200px;
   height: 200px;
+}
+
+#main_navigation_menu {
+  background-color: #9C6114;
+  padding: 10px 20px;
+}
+
+.menu_item {
+  color: #FFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 5px;
 }
