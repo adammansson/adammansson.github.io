@@ -5,19 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signal</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<script src="signal.js" defer></script> 
+<script src="signal.js" defer></script>
 
 <body>
   <h1>Signal</h1>
 
   <div id="signal_container">
-    <canvas id="signal_canvas" width="200" height="200"></canvas>
+    <canvas id="signal_canvas" width="600" height="400"></canvas>
   </div>
-  <input type="text" id="signal_input">
+
+  <div id="signal_textfields">
+    <div class="input_group">
+      <h2>Signals</h2>
+      <input type="text" id="signals_input">
+    </div>
+
+    <div class="input_group">
+      <h2>X scale</h2>
+      <input type="text" id="xscale_input">
+    </div>
+
+    <div class="input_group">
+      <h2>Y scale</h2>
+      <input type="text" id="yscale_input">
+    </div>
+  </div>
 </body>
 
 </html>
