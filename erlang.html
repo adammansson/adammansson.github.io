@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erlang</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+</head>
+
+<script src="erlang.js" defer></script>
+
+<body>
+  <div class="code flex flex-column items-center">
+    <div class="f1 b underline tc mv3">Erlang</div>
+
+    <div class="flex flex-column">
+      <div class="mb4">
+        <div class="f2 tc i">Number of servers</div>
+        <input class="f3 tr bw1 br3 b--dotted b--blue" type="text" id="servers_input">
+      </div>
+
+      <div class="mb4">
+        <div class="f2 tc i">Traffic intensity</div>
+        <input class="f3 tr bw1 br3 b--dotted b--green" type="text" id="traffic_input">
+      </div>
+
+      <div class="mb4 b--dashed bw1 b--red">
+        <div class="f2 tc i">Result</div>
+        <div class="f3 tc" id="result_textfield"></div>
+      </div>
+
+      <button class="f2 bg-white bw1 br4 grow" id="calculate_button">Calculate</button>
+    </div>
+  </div>
+</body>
+
+</html>
