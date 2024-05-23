@@ -4,13 +4,9 @@ const drawGrid = (ctx, xScale, yScale, width, height) => {
 
   ctx.beginPath();
 
-  console.log(xScale);
-  console.log(yScale);
-
   for (let x = 0; x < width; x += xScale) {
     ctx.moveTo(x, 0);
     ctx.lineTo(x, height);
-    console.log(x);
   }
 
   for (let y = 0; y < height; y += yScale) {
@@ -85,7 +81,6 @@ const redraw = (text, xScale, yScale) => {
 
   plotFunction(ctx, xdist, ydist, width, height, parseSignals(text.split(";")));
 }
-
 
 const signals_input = document.getElementById("signals_input");
 let signals = "s,1,1,0;";
