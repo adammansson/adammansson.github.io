@@ -11,26 +11,36 @@
 <script src="erlang.js" defer></script>
 
 <body>
-  <div class="code flex flex-column items-center">
-    <div class="f1 b underline tc mv3">Erlang</div>
-
-    <div class="flex flex-column">
-      <div class="mb4">
-        <div class="f2 tc i">Number of servers</div>
-        <input class="f3 tr bw1 br3 b--dotted b--blue w-100" type="text" id="servers_input">
+  <div class="debug code near-black ph5">
+    <header class="bg-gray flex items-center justify-around">
+      <div class="flex flex-column">
+        <div class="f1 b underline">Adam Månsson</div>
+        <div class="f5 i">M.Sc. Student in Computer Science and Engineering @ LTH</div>
       </div>
+      <img class="h4 ma2 ba br-pill" src="https://avatars.githubusercontent.com/u/73337148" alt="Profile picture">
+    </header>
 
-      <div class="mb4">
-        <div class="f2 tc i">Traffic intensity</div>
-        <input class="f3 tr bw1 br3 b--dotted b--green w-100" type="text" id="traffic_input">
+    <div class="code flex flex-column items-center">
+      <div class="f1 b underline tc mv3">Erlang</div>
+
+      <div class="flex flex-column">
+        <div class="mb4">
+          <div class="f2 tc i">Number of servers</div>
+          <input class="f3 tr bw1 br3 b--dotted b--blue w-100" type="text" id="servers_input">
+        </div>
+
+        <div class="mb4">
+          <div class="f2 tc i">Traffic intensity</div>
+          <input class="f3 tr bw1 br3 b--dotted b--green w-100" type="text" id="traffic_input">
+        </div>
+
+        <div class="mb4 b--dashed bw1 b--red">
+          <div class="f2 tc i">Result</div>
+          <div class="f3 tc" id="result_textfield"></div>
+        </div>
+
+        <button class="f2 bg-white bw1 br4 grow" id="calculate_button">Calculate</button>
       </div>
-
-      <div class="mb4 b--dashed bw1 b--red">
-        <div class="f2 tc i">Result</div>
-        <div class="f3 tc" id="result_textfield"></div>
-      </div>
-
-      <button class="f2 bg-white bw1 br4 grow" id="calculate_button">Calculate</button>
     </div>
   </div>
 </body>

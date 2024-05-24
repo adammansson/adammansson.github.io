@@ -3,40 +3,34 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>adammansson.github.io</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
 </head>
 
 <body>
-  <div id="page_wrapper">
-
-    <div id="header_wrapper">
-      <header id="header_content">
-        <div id="header_introduction">
-          <h1 id="header_name">Adam Månsson</h1>
-          <h2 id="header_description">M.Sc. Student in Computer Science and Engineering | LTH</h2>
-        </div>
-
-        <div id="header_picture"></div>
-      </header>
-    </div>
-
-    <div id="navigation_wrapper">
-      <div id="navigation_content">
-        <nav id="main_navigation">
-          <ul id="main_navigation_menu">
-            <li>
-              <a href="signal.html" class="menu_item">Signal</a>
-              <a href="graph.html" class="menu_item">Graph</a>
-              <a href="erlang.html" class="menu_item">Erlang</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="debug code near-black ph5">
+    <header class="bg-gray flex items-center justify-around">
+      <div class="flex flex-column">
+        <div class="f1 b underline">Adam Månsson</div>
+        <div class="f5 i">M.Sc. Student in Computer Science and Engineering @ LTH</div>
       </div>
-    </div>
+      <img class="h4 ma2 ba br-pill" src="https://avatars.githubusercontent.com/u/73337148" alt="Profile picture">
+    </header>
+
+    <nav class="bg-light-blue pv3 br4 br--bottom">
+      <ul class="flex items-center justify-around list">
+        <li class="">
+          <a href="signal.html" class="pa3 ba br3 grow near-black no-underline">Signal</a>
+        </li>
+        <li class="">
+          <a href="graph.html" class="pa3 ba br3 grow near-black no-underline">Graph</a>
+        </li>
+        <li class="">
+          <a href="erlang.html" class="pa3 ba br3 grow near-black no-underline">Erlang</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </body>
 
